@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+.logo > img{
+    margin-left: 15em;
+}
+.form-header{
+    color: #ccc;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+.form-header > button{
+    text-transform: uppercase;
+    border: none;
+    background: none;
+    color: #ccc;
+}
+
+.container{
+    margin: 0px;
+}
+.container-img{
+    background-image: url(../assets/header.svg);
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.main_header > h1{
+    color: whitesmoke;
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;    
+}
+.main_header > button{
+    margin-top: 1rem;
+    color: whitesmoke;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: relative;
+    position: absolute;
+    left: 50%;
+    top: 56%;
+    transform: translate(-50%, -50%);
+    z-index: 1;    
+}
+.service{
+    margin: 10em 15em;
+}
+.service h3{
+    font-size: 1em;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+}
+.liner{
+    width: 100px;
+    border:solid 1px aqua;
+    margin: 0.8em 0px ;
+    
+}
+.service  p{
+    color: grey;
+    font-size: 0.8em;
+}
+.icon-blue{
+    color: aqua;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+.web-design, .graphic-design, .programming, .photography{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-specs{
+    background-color: #F7F7F7;
+}
+.specs{
+    padding: 30px;
+}
+.btn-specs{
+    text-transform: uppercase;
+    width: 400px;
+    border-radius: 0%;
+}
+.container-phones{
+    margin: 3em 15em 0px 15em;
+}
+.text-phone h2{
+    font-weight: 300;
+}
+.btn-text{
+    text-transform: uppercase;
+}

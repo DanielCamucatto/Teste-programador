@@ -1,0 +1,28 @@
+.nav-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.navbar-nav{
+    display: flex;
+    align-items: baseline;
+}
+.nav-item{
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+.content-cadastro > h1{
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 2em;
+}
+#form-cadastro{
+    margin: 5em 30em;
+    text-transform: uppercase;
+}
+.btn-form{
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    background-color: none ;
+}

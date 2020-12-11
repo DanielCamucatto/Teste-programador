@@ -1,0 +1,47 @@
+.content-novidades{
+    margin: 0px 10rem;
+}
+.content-novidades > h1{
+    text-transform: uppercase;
+    margin-top: 3rem;
+    font-weight: 200;
+    letter-spacing: 5px;
+}
+.line{
+    border:solid 1px aqua;
+    width: 180px;
+}
+.content-novidades > p{
+    margin: 2rem 0px;
+    color: #ccc;
+    font-size: 0.8rem;
+}
+.agenda{
+    text-align: center;
+}
+.agenda > h2{
+    color: aqua;
+    font-weight: 300;
+    font-size: 3rem;
+}
+.agenda > span{
+    color: #ccc;
+    font-size: 0.7rem;
+    position: relative;
+    bottom: 20px;
+
+}
+.text-line{
+    border: solid 1px #f7f7f7;
+}
+.text-agenda{
+    color: #ccc;
+    font-size: 0.8rem;
+    margin: 1rem 0px;
+}
+.text-agenda > a{
+    color: aqua;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+}
